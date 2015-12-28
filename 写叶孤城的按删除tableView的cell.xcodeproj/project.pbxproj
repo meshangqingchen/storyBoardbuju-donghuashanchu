@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BADB44C51C30C979006F9F46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BADB44C41C30C979006F9F46 /* main.m */; };
+		BADB44C81C30C979006F9F46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BADB44C71C30C979006F9F46 /* AppDelegate.m */; };
+		BADB44CB1C30C979006F9F46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BADB44CA1C30C979006F9F46 /* ViewController.m */; };
+		BADB44CE1C30C979006F9F46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BADB44CC1C30C979006F9F46 /* Main.storyboard */; };
+		BADB44D01C30C979006F9F46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BADB44CF1C30C979006F9F46 /* Assets.xcassets */; };
+		BADB44D31C30C979006F9F46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BADB44D11C30C979006F9F46 /* LaunchScreen.storyboard */; };
+		BADB44DE1C30C97A006F9F46 /* ________tableView_cellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BADB44DD1C30C97A006F9F46 /* ________tableView_cellTests.m */; };
+		BADB44E91C30C97A006F9F46 /* ________tableView_cellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BADB44E81C30C97A006F9F46 /* ________tableView_cellUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BADB44DA1C30C97A006F9F46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BADB44B81C30C979006F9F46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BADB44BF1C30C979006F9F46;
+			remoteInfo = "写叶孤城的按删除tableView的cell";
+		};
+		BADB44E51C30C97A006F9F46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BADB44B81C30C979006F9F46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BADB44BF1C30C979006F9F46;
+			remoteInfo = "写叶孤城的按删除tableView的cell";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BADB44C01C30C979006F9F46 /* 写叶孤城的按删除tableView的cell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "写叶孤城的按删除tableView的cell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BADB44C41C30C979006F9F46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BADB44C61C30C979006F9F46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BADB44C71C30C979006F9F46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BADB44C91C30C979006F9F46 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BADB44CA1C30C979006F9F46 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BADB44CD1C30C979006F9F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BADB44CF1C30C979006F9F46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BADB44D21C30C979006F9F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BADB44D41C30C97A006F9F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BADB44D91C30C97A006F9F46 /* 写叶孤城的按删除tableView的cellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "写叶孤城的按删除tableView的cellTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BADB44DD1C30C97A006F9F46 /* ________tableView_cellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________tableView_cellTests.m"; sourceTree = "<group>"; };
+		BADB44DF1C30C97A006F9F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BADB44E41C30C97A006F9F46 /* 写叶孤城的按删除tableView的cellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "写叶孤城的按删除tableView的cellUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BADB44E81C30C97A006F9F46 /* ________tableView_cellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________tableView_cellUITests.m"; sourceTree = "<group>"; };
+		BADB44EA1C30C97A006F9F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BADB44BD1C30C979006F9F46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BADB44D61C30C97A006F9F46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BADB44E11C30C97A006F9F46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BADB44B71C30C979006F9F46 = {
+			isa = PBXGroup;
+			children = (
+				BADB44C21C30C979006F9F46 /* 写叶孤城的按删除tableView的cell */,
+				BADB44DC1C30C97A006F9F46 /* 写叶孤城的按删除tableView的cellTests */,
+				BADB44E71C30C97A006F9F46 /* 写叶孤城的按删除tableView的cellUITests */,
+				BADB44C11C30C979006F9F46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BADB44C11C30C979006F9F46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BADB44C01C30C979006F9F46 /* 写叶孤城的按删除tableView的cell.app */,
+				BADB44D91C30C97A006F9F46 /* 写叶孤城的按删除tableView的cellTests.xctest */,
+				BADB44E41C30C97A006F9F46 /* 写叶孤城的按删除tableView的cellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BADB44C21C30C979006F9F46 /* 写叶孤城的按删除tableView的cell */ = {
+			isa = PBXGroup;
+			children = (
+				BADB44C61C30C979006F9F46 /* AppDelegate.h */,
+				BADB44C71C30C979006F9F46 /* AppDelegate.m */,
+				BADB44C91C30C979006F9F46 /* ViewController.h */,
+				BADB44CA1C30C979006F9F46 /* ViewController.m */,
+				BADB44CC1C30C979006F9F46 /* Main.storyboard */,
+				BADB44CF1C30C979006F9F46 /* Assets.xcassets */,
+				BADB44D11C30C979006F9F46 /* LaunchScreen.storyboard */,
+				BADB44D41C30C97A006F9F46 /* Info.plist */,
+				BADB44C31C30C979006F9F46 /* Supporting Files */,
+			);
+			path = "写叶孤城的按删除tableView的cell";
+			sourceTree = "<group>";
+		};
+		BADB44C31C30C979006F9F46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BADB44C41C30C979006F9F46 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BADB44DC1C30C97A006F9F46 /* 写叶孤城的按删除tableView的cellTests */ = {
+			isa = PBXGroup;
+			children = (
+				BADB44DD1C30C97A006F9F46 /* ________tableView_cellTests.m */,
+				BADB44DF1C30C97A006F9F46 /* Info.plist */,
+			);
+			path = "写叶孤城的按删除tableView的cellTests";
+			sourceTree = "<group>";
+		};
+		BADB44E71C30C97A006F9F46 /* 写叶孤城的按删除tableView的cellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BADB44E81C30C97A006F9F46 /* ________tableView_cellUITests.m */,
+				BADB44EA1C30C97A006F9F46 /* Info.plist */,
+			);
+			path = "写叶孤城的按删除tableView的cellUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BADB44BF1C30C979006F9F46 /* 写叶孤城的按删除tableView的cell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BADB44ED1C30C97A006F9F46 /* Build configuration list for PBXNativeTarget "写叶孤城的按删除tableView的cell" */;
+			buildPhases = (
+				BADB44BC1C30C979006F9F46 /* Sources */,
+				BADB44BD1C30C979006F9F46 /* Frameworks */,
+				BADB44BE1C30C979006F9F46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "写叶孤城的按删除tableView的cell";
+			productName = "写叶孤城的按删除tableView的cell";
+			productReference = BADB44C01C30C979006F9F46 /* 写叶孤城的按删除tableView的cell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BADB44D81C30C97A006F9F46 /* 写叶孤城的按删除tableView的cellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BADB44F01C30C97A006F9F46 /* Build configuration list for PBXNativeTarget "写叶孤城的按删除tableView的cellTests" */;
+			buildPhases = (
+				BADB44D51C30C97A006F9F46 /* Sources */,
+				BADB44D61C30C97A006F9F46 /* Frameworks */,
+				BADB44D71C30C97A006F9F46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BADB44DB1C30C97A006F9F46 /* PBXTargetDependency */,
+			);
+			name = "写叶孤城的按删除tableView的cellTests";
+			productName = "写叶孤城的按删除tableView的cellTests";
+			productReference = BADB44D91C30C97A006F9F46 /* 写叶孤城的按删除tableView的cellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BADB44E31C30C97A006F9F46 /* 写叶孤城的按删除tableView的cellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BADB44F31C30C97A006F9F46 /* Build configuration list for PBXNativeTarget "写叶孤城的按删除tableView的cellUITests" */;
+			buildPhases = (
+				BADB44E01C30C97A006F9F46 /* Sources */,
+				BADB44E11C30C97A006F9F46 /* Frameworks */,
+				BADB44E21C30C97A006F9F46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BADB44E61C30C97A006F9F46 /* PBXTargetDependency */,
+			);
+			name = "写叶孤城的按删除tableView的cellUITests";
+			productName = "写叶孤城的按删除tableView的cellUITests";
+			productReference = BADB44E41C30C97A006F9F46 /* 写叶孤城的按删除tableView的cellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BADB44B81C30C979006F9F46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = li;
+				TargetAttributes = {
+					BADB44BF1C30C979006F9F46 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = C2UN8WWT6B;
+					};
+					BADB44D81C30C97A006F9F46 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = C2UN8WWT6B;
+						TestTargetID = BADB44BF1C30C979006F9F46;
+					};
+					BADB44E31C30C97A006F9F46 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = C2UN8WWT6B;
+						TestTargetID = BADB44BF1C30C979006F9F46;
+					};
+				};
+			};
+			buildConfigurationList = BADB44BB1C30C979006F9F46 /* Build configuration list for PBXProject "写叶孤城的按删除tableView的cell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BADB44B71C30C979006F9F46;
+			productRefGroup = BADB44C11C30C979006F9F46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BADB44BF1C30C979006F9F46 /* 写叶孤城的按删除tableView的cell */,
+				BADB44D81C30C97A006F9F46 /* 写叶孤城的按删除tableView的cellTests */,
+				BADB44E31C30C97A006F9F46 /* 写叶孤城的按删除tableView的cellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BADB44BE1C30C979006F9F46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADB44D31C30C979006F9F46 /* LaunchScreen.storyboard in Resources */,
+				BADB44D01C30C979006F9F46 /* Assets.xcassets in Resources */,
+				BADB44CE1C30C979006F9F46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BADB44D71C30C97A006F9F46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BADB44E21C30C97A006F9F46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BADB44BC1C30C979006F9F46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADB44CB1C30C979006F9F46 /* ViewController.m in Sources */,
+				BADB44C81C30C979006F9F46 /* AppDelegate.m in Sources */,
+				BADB44C51C30C979006F9F46 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BADB44D51C30C97A006F9F46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADB44DE1C30C97A006F9F46 /* ________tableView_cellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BADB44E01C30C97A006F9F46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADB44E91C30C97A006F9F46 /* ________tableView_cellUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BADB44DB1C30C97A006F9F46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BADB44BF1C30C979006F9F46 /* 写叶孤城的按删除tableView的cell */;
+			targetProxy = BADB44DA1C30C97A006F9F46 /* PBXContainerItemProxy */;
+		};
+		BADB44E61C30C97A006F9F46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BADB44BF1C30C979006F9F46 /* 写叶孤城的按删除tableView的cell */;
+			targetProxy = BADB44E51C30C97A006F9F46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BADB44CC1C30C979006F9F46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BADB44CD1C30C979006F9F46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BADB44D11C30C979006F9F46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BADB44D21C30C979006F9F46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BADB44EB1C30C97A006F9F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BADB44EC1C30C97A006F9F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BADB44EE1C30C97A006F9F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "写叶孤城的按删除tableView的cell/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lichancgheng.--------tableView-cell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BADB44EF1C30C97A006F9F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "写叶孤城的按删除tableView的cell/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lichancgheng.--------tableView-cell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BADB44F11C30C97A006F9F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "写叶孤城的按删除tableView的cellTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lichancgheng.--------tableView-cellTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/写叶孤城的按删除tableView的cell.app/写叶孤城的按删除tableView的cell";
+			};
+			name = Debug;
+		};
+		BADB44F21C30C97A006F9F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "写叶孤城的按删除tableView的cellTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lichancgheng.--------tableView-cellTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/写叶孤城的按删除tableView的cell.app/写叶孤城的按删除tableView的cell";
+			};
+			name = Release;
+		};
+		BADB44F41C30C97A006F9F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "写叶孤城的按删除tableView的cellUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lichancgheng.--------tableView-cellUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "写叶孤城的按删除tableView的cell";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BADB44F51C30C97A006F9F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "写叶孤城的按删除tableView的cellUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lichancgheng.--------tableView-cellUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "写叶孤城的按删除tableView的cell";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BADB44BB1C30C979006F9F46 /* Build configuration list for PBXProject "写叶孤城的按删除tableView的cell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BADB44EB1C30C97A006F9F46 /* Debug */,
+				BADB44EC1C30C97A006F9F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BADB44ED1C30C97A006F9F46 /* Build configuration list for PBXNativeTarget "写叶孤城的按删除tableView的cell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BADB44EE1C30C97A006F9F46 /* Debug */,
+				BADB44EF1C30C97A006F9F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BADB44F01C30C97A006F9F46 /* Build configuration list for PBXNativeTarget "写叶孤城的按删除tableView的cellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BADB44F11C30C97A006F9F46 /* Debug */,
+				BADB44F21C30C97A006F9F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BADB44F31C30C97A006F9F46 /* Build configuration list for PBXNativeTarget "写叶孤城的按删除tableView的cellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BADB44F41C30C97A006F9F46 /* Debug */,
+				BADB44F51C30C97A006F9F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BADB44B81C30C979006F9F46 /* Project object */;
+}
