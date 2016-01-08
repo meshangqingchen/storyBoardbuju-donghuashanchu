@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA6C86D81C30D01B0092AC28 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6C86D71C30D01B0092AC28 /* CustomTableViewCell.m */; };
+		BA6C86DA1C30DA4C0092AC28 /* berlin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA6C86D91C30DA4C0092AC28 /* berlin.jpg */; };
 		BADB44C51C30C979006F9F46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BADB44C41C30C979006F9F46 /* main.m */; };
 		BADB44C81C30C979006F9F46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BADB44C71C30C979006F9F46 /* AppDelegate.m */; };
 		BADB44CB1C30C979006F9F46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BADB44CA1C30C979006F9F46 /* ViewController.m */; };
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA6C86D61C30D01B0092AC28 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		BA6C86D71C30D01B0092AC28 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		BA6C86D91C30DA4C0092AC28 /* berlin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = berlin.jpg; sourceTree = "<group>"; };
 		BADB44C01C30C979006F9F46 /* 写叶孤城的按删除tableView的cell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "写叶孤城的按删除tableView的cell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BADB44C41C30C979006F9F46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BADB44C61C30C979006F9F46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,10 +106,13 @@
 		BADB44C21C30C979006F9F46 /* 写叶孤城的按删除tableView的cell */ = {
 			isa = PBXGroup;
 			children = (
+				BA6C86D91C30DA4C0092AC28 /* berlin.jpg */,
 				BADB44C61C30C979006F9F46 /* AppDelegate.h */,
 				BADB44C71C30C979006F9F46 /* AppDelegate.m */,
 				BADB44C91C30C979006F9F46 /* ViewController.h */,
 				BADB44CA1C30C979006F9F46 /* ViewController.m */,
+				BA6C86D61C30D01B0092AC28 /* CustomTableViewCell.h */,
+				BA6C86D71C30D01B0092AC28 /* CustomTableViewCell.m */,
 				BADB44CC1C30C979006F9F46 /* Main.storyboard */,
 				BADB44CF1C30C979006F9F46 /* Assets.xcassets */,
 				BADB44D11C30C979006F9F46 /* LaunchScreen.storyboard */,
@@ -247,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BADB44D31C30C979006F9F46 /* LaunchScreen.storyboard in Resources */,
+				BA6C86DA1C30DA4C0092AC28 /* berlin.jpg in Resources */,
 				BADB44D01C30C979006F9F46 /* Assets.xcassets in Resources */,
 				BADB44CE1C30C979006F9F46 /* Main.storyboard in Resources */,
 			);
@@ -275,6 +284,7 @@
 			files = (
 				BADB44CB1C30C979006F9F46 /* ViewController.m in Sources */,
 				BADB44C81C30C979006F9F46 /* AppDelegate.m in Sources */,
+				BA6C86D81C30D01B0092AC28 /* CustomTableViewCell.m in Sources */,
 				BADB44C51C30C979006F9F46 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,6 +511,7 @@
 				BADB44EF1C30C97A006F9F46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BADB44F01C30C97A006F9F46 /* Build configuration list for PBXNativeTarget "写叶孤城的按删除tableView的cellTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +520,7 @@
 				BADB44F21C30C97A006F9F46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BADB44F31C30C97A006F9F46 /* Build configuration list for PBXNativeTarget "写叶孤城的按删除tableView的cellUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +529,7 @@
 				BADB44F51C30C97A006F9F46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
